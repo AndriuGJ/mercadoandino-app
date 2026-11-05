@@ -15,7 +15,7 @@ app.get("/", (req, res) => {
     <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>MercadoAndino</title>
+      <h1>MercadoAndino v2</h1>
       <style>
         body {
           font-family: Arial, sans-serif;
@@ -47,7 +47,7 @@ app.get("/", (req, res) => {
     </head>
     <body>
       <main>
-        <h1>MercadoAndino v1</h1>
+        <h1>MercadoAndino v2</h1>
         <p>Plataforma escalable en AWS</p>
         <p>Servidor: ${os.hostname()}</p>
         <h3>Subir fotografía a S3</h3>
